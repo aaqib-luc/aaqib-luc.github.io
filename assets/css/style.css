@@ -1,0 +1,118 @@
+/*
+    font-family: 'Rock Salt', cursive;
+    font-weight: 400
+    font-family: 'Salsa', cursive;
+    font-weight: 400
+*/
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  background-color: #e5e5e5;
+}
+
+.bio {
+  color: #000;
+  text-align: center;
+}
+
+.bio-image {
+  max-width: 100%;
+  width: 224px;
+  overflow: hidden;
+  margin: 17px 83px 23px 83px;
+}
+
+.bio-title {
+  font-family: 'Rock Salt', cursive;
+  font-size: 24px;
+  margin: 23px 74px 24px 75px;
+}
+
+.bio-body {
+  font-family: 'Salsa', cursive;
+  font-size: 15px;
+  margin: 24px 2px 13px 3px;
+}
+
+.bio-contact {
+  font-family: 'Salsa', cursive;
+  font-size: 15px;
+  margin: 11px 2px 11px 3px;
+}
+
+.bio-footer {
+  font-family: 'Salsa', cursive;
+  font-size: 15px;
+  margin: 11px 145px 12px 146px;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .bio-image {
+    max-width: 100%;
+    width: 314.29px;
+    margin: 23px 17px 68px 30px;
+    position: absolute;
+    top: 23px;
+  }
+
+  .bio-title {
+    font-size: 36px;
+    width: 362px;
+    margin: 183px 30px 172px 44px;
+  }
+
+  .bio-body {
+    font-size: 18px;
+    text-align: left;
+    margin: 24px 84px 15px 44px;
+  }
+
+  .bio-contact {
+    font-size: 18px;
+    text-align: left;
+    margin: 15px 84px 85px 44px;
+  }
+
+  .bio-footer {
+    font-size: 18px;
+    text-align: left;
+    margin: 85px 605px 58px 44px;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1440px) {
+  .bio-image {
+    max-width: 100%;
+    width: 401.13px;
+    margin: 61px 32px 292px 47px;
+    left: 1006px;
+  }
+
+  .bio-title {
+    font-size: 42px;
+    width: 422px;
+    margin: 55px 730px 27px 288px;
+  }
+
+  .bio-body {
+    font-size: 24px;
+    text-align: left;
+    width: 920px;
+  }
+
+  .bio-contact {
+    font-size: 24px;
+    text-align: left;
+    margin: 70px 481px 108px 39px;
+  }
+
+  .bio-footer {
+    font-size: 24px;
+    text-align: left;
+    margin: 108px 1242px 52px 39px;
+  }
+}
